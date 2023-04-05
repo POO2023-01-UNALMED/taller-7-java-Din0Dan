@@ -14,7 +14,7 @@ public class Fabula extends Escrito{
 		return super.getPaginas() * palabrasPagina * 1;
 	}
 
-	String interpretacion() {
+	public String interpretacion() {
 		return interpretacion;
 	}
 

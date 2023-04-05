@@ -16,7 +16,7 @@ public class Periodico extends Escrito {
 		return super.getPaginas() * palabrasPagina * 10;
 	}
 
-	String interpretacion() {
+	public String interpretacion() {
 		return interpretacion;
 	}
 

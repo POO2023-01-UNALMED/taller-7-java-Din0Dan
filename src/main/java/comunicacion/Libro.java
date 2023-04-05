@@ -18,7 +18,7 @@ public class Libro extends Escrito{
 		return super.getPaginas() * palabrasPagina * 2;
 	}
 
-	String interpretacion() {
+	public String interpretacion() {
 		return interpretacion;
 	}
 
