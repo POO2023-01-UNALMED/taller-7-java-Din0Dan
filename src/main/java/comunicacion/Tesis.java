@@ -26,7 +26,7 @@ public class Tesis extends Escrito{
 
 	@Override
 	public String toString() {
-		String datos = super.getOrigen() + "\n" + super.getTitulo() + "\n" + super.getAutor() + "\n" + super.getPaginas() + "\n" + this.idea + "\n" + this.argumentos.length + "\n" + this.conclusion + "\n" + this.referencias + "\n" + this.interpretacion;
+		String datos = super.getOrigen() + "\n" + super.getTitulo() + "\n" + super.getAutor() + "\n" + super.getPaginas() + "\n" + this.idea + "\n" + this.argumentos.length + "\n" + this.conclusion + "\n" + this.referencias;
 		return datos;
 	}
 

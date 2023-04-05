@@ -18,9 +18,8 @@ public class Fabula extends Escrito{
 		return interpretacion;
 	}
 
-	@Override
 	public String toString() {
-		String datos = super.getOrigen() + "\n" + super.getTitulo() + "\n" + super.getAutor() + "\n" + super.getPaginas() + "\n" + this.ensenanza + "\n" + this.interpretacion;
+		String datos = super.getOrigen() + "\n" + super.getTitulo() + "\n" + super.getAutor() + "\n" + super.getPaginas() + "\n" + this.ensenanza;
 		return datos;
 	}
 

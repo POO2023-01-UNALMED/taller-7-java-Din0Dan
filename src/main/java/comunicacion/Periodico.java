@@ -22,7 +22,7 @@ public class Periodico extends Escrito {
 
 	@Override
 	public String toString() {
-		String datos = super.getOrigen() + "\n" + super.getTitulo() + "\n" + super.getAutor() + "\n" + super.getPaginas() + "\n" + this.fecha + "\n" + this.primicia + "\n" + this.interpretacion;
+		String datos = super.getOrigen() + "\n" + super.getTitulo() + "\n" + super.getAutor() + "\n" + super.getPaginas() + "\n" + this.fecha + "\n" + this.primicia;
 		return datos;
 	}
 
